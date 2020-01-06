@@ -1,4 +1,5 @@
-@import "content/src/css/root";
+@import "root";
+@import "scaleMixin";
 
 .gallery {
   background-color: $main-menue-background-color;

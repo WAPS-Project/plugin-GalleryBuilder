@@ -2,4 +2,4 @@
 
 include 'class/Gallery.class.php';
 
-echo "<script>console.log('Plugin loaded, AKA Hello World')</script>";
+echo '<link rel="stylesheet" href="custom/plugin/GalleryBuilder/dist/css/style.css">';

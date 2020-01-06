@@ -1,0 +1,26 @@
+{
+  "name": "gallerybuilder",
+  "version": "1.0.0",
+  "description": "A Gallery Plugin for the WebApp PHP Sample Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "css": "sass src/scss/style.scss dist/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:webapp-php-sample/plugins/gallerybuilder.git"
+  },
+  "keywords": [
+    "php"
+  ],
+  "author": "Jonas Pfalzgraf",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.24.2",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5"
+  }
+}
