@@ -1,0 +1,24 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "gallerybuilder.src/content/js/",
+    "lib": [ "es2018", "dom" ],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "strict": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es5"
+  },
+  "include": [
+    "gallerybuilder.src/src/typescript/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

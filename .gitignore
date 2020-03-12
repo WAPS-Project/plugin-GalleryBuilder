@@ -750,3 +750,9 @@ fabric.properties
 # SonarQube Plugin
 
 # Markdown Navigator plugin
+
+.idea
+gallerybuilder.src/content/css/
+gallerybuilder.src/content/js/
+gallerybuilder.dist
+package-lock.json
